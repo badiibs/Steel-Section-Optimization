@@ -1,0 +1,57 @@
+{
+  "name": "plugin-triazur",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "@tensorflow-models/coco-ssd": "^2.0.1",
+    "@tensorflow-models/facemesh": "0.0.1",
+    "@tensorflow-models/handpose": "0.0.3",
+    "@tensorflow/tfjs": "^1.7.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "clsx": "^1.1.0",
+    "env-cmd": "^8.0.2",
+    "history": "^4.10.1",
+    "immutability-helper": "^3.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.8.6",
+    "react-burger-menu": "^2.6.13",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.5.0",
+    "react-markdown": "^4.2.2",
+    "react-measure": "^2.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.8",
+    "react-swipeable-views": "^0.13.9",
+    "react-three-fiber": "^4.0.22",
+    "react-webcam": "^5.0.1",
+    "reactstrap": "^7.1.0",
+    "styled-components": "^5.0.1",
+    "three": "^0.129.0",
+    "use-tensorflow": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "env-cmd": "^8.0.2",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
